@@ -1,0 +1,12 @@
+﻿@page
+@model ImageUpload.Pages.Upload.IndexModel
+@{
+}
+
+<div class="m-3">
+    <p>Простейшая форма, здесь нет никаких проверок. Поэтому сначала выберите файл картинки, и загрузите его на сервер.</p>
+    <form method="post" enctype="multipart/form-data" class="border-bottom pb-3">
+        <input name="image" type="file" class="form-control-file mb-2" accept="image/*" />
+        <input type="submit" value="Upload" class="btn btn-primary" />
+    </form>
+</div>
