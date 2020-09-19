@@ -98,6 +98,33 @@
 }
 ```
 
+Теперь на сервер может быть передано несколько файлов, и надо немного поменять код:
+```
+        const int MAX_PHOTOS = 20;
+        public async Task OnPostAsync(List<IFormFile> image)
+        {
+            if (image == null || !image.Any())
+                throw new ArgumentNullException("Нет файлов для загрузки. Пожалуйста выберите одну или несколько фотографий.");
+            else if (image.Count > MAX_PHOTOS)
+                throw new ArgumentException($"Слишком много файлов. Максимально можно загрузить {MAX_PHOTOS} за один раз.");
+            else
+            {
+                foreach (IFormFile ff in image) 
+                {
+                    var path = Path.Combine(
+                       Directory.GetCurrentDirectory(), "wwwroot/uploads", 
+                       ff.FileName);
+                    var memory = new MemoryStream();
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await ff.CopyToAsync(stream);
+                    }
+
+                }
+            }
+        }
+```
+
 
 ## Файлы с кодом
 * [HTML код + javascript](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Upload/Index.cshtml)  
