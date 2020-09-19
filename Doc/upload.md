@@ -2,7 +2,8 @@
 
 # Простая фоорма загрузки
 
-Простейшая форма:
+Простейшая форма:  
+
 ```
 <div class="m-3">
     <form method="post" enctype="multipart/form-data" class="border-bottom pb-3">
@@ -16,7 +17,11 @@
  Пользователи по-прежнему могут (в большинстве случаев) переключить параметр в селекторе файлов,
  который позволяет отменить это и выбрать любой файл, который они хотят, а затем выбрать неправильные типы файлов.  
  По этой причине вы должны убедиться, что ожидаемые требования подтверждены на стороне сервера.
- (см. https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept )
+ ◻ [developer.mozilla: Attributes accept](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept)  
+ 
+ `enctype="multipart/form-data"` -- кодировка данных формы, которая позволяет передавать двоичные данные.  
+ 
+`class="m-3"` -- используются стандартные Bootstrap классы
 
 Код:
 ``` 
