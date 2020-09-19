@@ -100,6 +100,6 @@
 
 
 ## Файлы с кодом
-* [HTML код](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Upload/Index.cshtml)  
+* [HTML код + javascript](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Upload/Index.cshtml)  
 * [C# код](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Upload/Index.cshtml.cs)    
  
