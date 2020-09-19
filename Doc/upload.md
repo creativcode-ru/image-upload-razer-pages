@@ -99,5 +99,7 @@
 ```
 
 
-## ***
-◻ [JQuery Image Upload with Razor Pages](https://www.codeproject.com/Articles/1223613/JQuery-Image-Upload-with-Razor-Pages) 
+## Файлы с кодом
+* [HTML код](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Upload/Index.cshtml)  
+* [C# код](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Upload/Index.cshtml.cs)    
+ 
