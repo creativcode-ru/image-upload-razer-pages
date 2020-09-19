@@ -6,8 +6,13 @@
 Без сторонних javascript библиотек - просто загрузка на сервер с выполнением необходимых проверок.
 
 ## Для начала:
-* [JQuery Image Upload with Razor Pages](https://www.codeproject.com/Articles/1223613/JQuery-Image-Upload-with-Razor-Pages)  
 * [Лучшие плагины Javascript и jQuery для обрезки изображений](https://ourcodeworld.com/articles/read/281/top-7-best-image-cropping-javascript-and-jquery-plugins)  
 *  
 
-
+<br /><br />
+<p align="center">
+  Посетите нашу Веб студию CREATIVcode в Сочи, Адлер</a>, <a  href="http://creativcode.ru/contact" target="_blank" >свяжитесь с нами</a>.<br /><br />
+   <a  href="http://creativcode.ru" target="_blank" title="Вебстудия, " >
+  <img src="http://creativcode.ru/img/app/og/webnet-1200x628.jpg" width="400" alt="Веб разработка .Net">
+   </a>
+</p>
