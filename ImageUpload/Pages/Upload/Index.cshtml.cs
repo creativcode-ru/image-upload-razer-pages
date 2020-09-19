@@ -14,6 +14,7 @@ namespace ImageUpload.Pages.Upload
         public void OnGet()
         {
         }
+        /*
         public async Task OnPostAsync(IFormFile image)
         {
             var path = Path.Combine(
@@ -25,5 +26,31 @@ namespace ImageUpload.Pages.Upload
                 await image.CopyToAsync(stream);
             }
         }
+        */
+
+        const int MAX_PHOTOS = 20;
+        public async Task OnPostAsync(List<IFormFile> image)
+        {
+            if (image == null || !image.Any())
+                throw new ArgumentNullException("Нет файлов для загрузки. Пожалуйста выберите одну или несколько фотографий.");
+            else if (image.Count > MAX_PHOTOS)
+                throw new ArgumentException($"Слишком много файлов. Максимально можно загрузить {MAX_PHOTOS} за один раз.");
+            else
+            {
+                foreach (IFormFile ff in image) 
+                {
+                    var path = Path.Combine(
+                       Directory.GetCurrentDirectory(), "wwwroot/uploads", 
+                       ff.FileName);
+                    var memory = new MemoryStream();
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await ff.CopyToAsync(stream);
+                    }
+
+                }
+            }
+        }
+       
     }
 }
