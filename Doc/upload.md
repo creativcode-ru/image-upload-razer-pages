@@ -43,7 +43,7 @@
 Хочется немного улучшить форму: загрузка на сервер должна происходить только после выбора изображения, нельзя загружать слишком большие файлы, можно загрузить сразу несколько картинок. Сама форма изменится не существенно:
 ```
     <form method="post" enctype="multipart/form-data" class="border-bottom pb-3">
-        <input id="file_upload" name="image" type="file" class="form-control-file" accept="image/*" />
+        <input id="file_upload" multiple name="image" type="file" class="form-control-file" accept="image/*" />
         <p class="mt-2">
             <input id="btn_upload" disabled="disabled" type="submit" value="Загрузить" class="btn btn-secondary" />
             <span id="busy" style="display: none;">Идет загрузка ...</span>
