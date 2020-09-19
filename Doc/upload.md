@@ -37,6 +37,7 @@
             }
         }
 ```
+Конечно, должно быть соответствие имен: `input name="image"` => `IFormFile image`  
 
 
 ◻ [JQuery Image Upload with Razor Pages](https://www.codeproject.com/Articles/1223613/JQuery-Image-Upload-with-Razor-Pages) 
