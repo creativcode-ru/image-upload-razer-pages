@@ -10,11 +10,13 @@
 * [Лучшие плагины Javascript и jQuery для обрезки изображений](https://ourcodeworld.com/articles/read/281/top-7-best-image-cropping-javascript-and-jquery-plugins)  
 * [Бесплатные плагины для обрезки изображений jQuery](https://www.jqueryscript.net/tags.php?/Image%20Cropping/)  
 * [Лучшие плагины и руководства jQuery Image Crop с демонстрацией](https://www.bestjquery.com/demo/jquery-crop-image-plugin/)  
+* [8 бесплатных скриптов и плагинов для обрезки изображений на Javascript](https://www.webdesignerdepot.com/2018/05/8-free-javascript-image-cropping-scripts-and-plugins/)  
 
 Обрезка изображений перед загрузкой:
 * [Обрезка изображений перед загрузкой - jQuery FineCrop](https://www.jqueryscript.net/form/Crop-Images-Before-Uploading-jQuery-FineCrop.html) 
 * [Simple jQuery Client Side Image Cropping Plugin - Awesome Cropper](https://www.jqueryscript.net/other/Simple-jQuery-Client-Side-Image-Cropping-Plugin-Awesome-Cropper.html)   
 * [picEdit : jQuery front-end Image editor Plugin](https://github.com/andyvr/picEdit)  
+
 * []()  
 
 
