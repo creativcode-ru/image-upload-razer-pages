@@ -17,6 +17,10 @@
 * [Simple jQuery Client Side Image Cropping Plugin - Awesome Cropper](https://www.jqueryscript.net/other/Simple-jQuery-Client-Side-Image-Cropping-Plugin-Awesome-Cropper.html)   
 * [picEdit : jQuery front-end Image editor Plugin](https://github.com/andyvr/picEdit)  
 
+
+Варианты применения  
+* [PHP jQuery crop and resize image before upload using croppie plugin](http://www.expertphp.in/article/php-jquery-crop-and-resize-image-before-upload-using-croppie-plugin)  
+* [Обрезка и загрузка изображений с помощью JQuery и PHP Ajax](https://www.webslesson.info/2018/03/image-crop-and-upload-using-jquery-with-php-ajax.html)  
 * []()  
 
 
