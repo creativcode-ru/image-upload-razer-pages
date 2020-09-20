@@ -5,8 +5,18 @@
 ## [Простая форма загрузки изображений →](Doc/upload.md) 
 Без сторонних javascript библиотек - просто загрузка на сервер с выполнением первичных проверок на клиенте.
 
-## Для начала:
-* [Лучшие плагины Javascript и jQuery для обрезки изображений](https://ourcodeworld.com/articles/read/281/top-7-best-image-cropping-javascript-and-jquery-plugins)   
+## Ресурсы:
+Плагины позволяют редактировать ранее загруженное на сервер изображение. Конечно, хочется немного отредактировать изображение *перед загрузкой*, чтобы не тащить огромные файлы, и обрезать лишнее.
+* [Лучшие плагины Javascript и jQuery для обрезки изображений](https://ourcodeworld.com/articles/read/281/top-7-best-image-cropping-javascript-and-jquery-plugins)  
+* [Бесплатные плагины для обрезки изображений jQuery](https://www.jqueryscript.net/tags.php?/Image%20Cropping/)  
+
+Обрезка изображений перед загрузкой:
+* [Обрезка изображений перед загрузкой - jQuery FineCrop](https://www.jqueryscript.net/form/Crop-Images-Before-Uploading-jQuery-FineCrop.html) 
+* [Simple jQuery Client Side Image Cropping Plugin - Awesome Cropper](https://www.jqueryscript.net/other/Simple-jQuery-Client-Side-Image-Cropping-Plugin-Awesome-Cropper.html)   
+* []()  
+* []()  
+
+
 
 <br /><br />
 <p align="center">
