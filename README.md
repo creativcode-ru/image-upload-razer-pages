@@ -17,6 +17,9 @@
 * [Simple jQuery Client Side Image Cropping Plugin - Awesome Cropper](https://www.jqueryscript.net/other/Simple-jQuery-Client-Side-Image-Cropping-Plugin-Awesome-Cropper.html)   
 * [picEdit : jQuery front-end Image editor Plugin](https://github.com/andyvr/picEdit)  
 
+ещё:
+* [fengyuanchen/cropperjs](https://github.com/fengyuanchen/cropperjs)  
+* [fengyuanchen/jquery-cropper](https://github.com/fengyuanchen/jquery-cropper)  
 
 Варианты применения:
 * [Upload ,Crop and save.](https://codepen.io/nakome/pen/vmKwQg)  
