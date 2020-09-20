@@ -19,15 +19,15 @@
 
 
 Варианты применения:
-* [How to crop image using croppie js and upload in asp.net mvc](https://stackoverflow.com/questions/38012606/how-to-crop-image-using-croppie-js-and-upload-in-asp-net-mvc)  
 * [Upload ,Crop and save.](https://codepen.io/nakome/pen/vmKwQg)  
-* [Codeigniter Обрезать изображение перед загрузкой Пример](https://hdtuto.com/article/codeigniter-crop-image-before-upload-example)  
-* [PHP jQuery crop and resize image before upload using croppie plugin](http://www.expertphp.in/article/php-jquery-crop-and-resize-image-before-upload-using-croppie-plugin)  
-* [Обрезка и загрузка изображений с помощью JQuery и PHP Ajax](https://www.webslesson.info/2018/03/image-crop-and-upload-using-jquery-with-php-ajax.html)  
-* [PHP Crop Image Before Upload using Cropper JS](https://www.nicesnippets.com/blog/php-crop-image-before-upload-using-cropper-js)  
-* [How To Crop Image And Save Image In ASP.NET Using jQuery](https://www.c-sharpcorner.com/blogs/how-to-crop-image-and-save-the-cropped-image-using-asp-net-jquery)  
-* [Upload and Crop Images with jQuery, JCrop and ASP.NET](https://www.mikesdotnetting.com/article/95/upload-and-crop-images-with-jquery-jcrop-and-asp-net)  
-* [How to Crop and Upload image using JQuery](https://www.sharepointcafe.net/2013/06/crop-and-upload-image-using-jquery-and-aspnet.html)  
+* [croppie: How to crop image using croppie js and upload in asp.net mvc](https://stackoverflow.com/questions/38012606/how-to-crop-image-using-croppie-js-and-upload-in-asp-net-mvc)  
+* [croppie: Codeigniter Обрезать изображение перед загрузкой Пример](https://hdtuto.com/article/codeigniter-crop-image-before-upload-example)  
+* [croppie: PHP jQuery crop and resize image before upload using croppie plugin](http://www.expertphp.in/article/php-jquery-crop-and-resize-image-before-upload-using-croppie-plugin)  
+* [croppie: Обрезка и загрузка изображений с помощью JQuery и PHP Ajax](https://www.webslesson.info/2018/03/image-crop-and-upload-using-jquery-with-php-ajax.html)  
+* [cropper: PHP Crop Image Before Upload using Cropper JS](https://www.nicesnippets.com/blog/php-crop-image-before-upload-using-cropper-js)  
+* [jcrop: How To Crop Image And Save Image In ASP.NET Using jQuery](https://www.c-sharpcorner.com/blogs/how-to-crop-image-and-save-the-cropped-image-using-asp-net-jquery)  
+* [jcrop: Upload and Crop Images with jQuery, JCrop and ASP.NET](https://www.mikesdotnetting.com/article/95/upload-and-crop-images-with-jquery-jcrop-and-asp-net)  
+* [jcrop: How to Crop and Upload image using JQuery](https://www.sharepointcafe.net/2013/06/crop-and-upload-image-using-jquery-and-aspnet.html)  
 * []()  
 
 
