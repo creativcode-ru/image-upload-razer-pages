@@ -30,7 +30,8 @@
 * [jcrop: How to Crop and Upload image using JQuery](https://www.sharepointcafe.net/2013/06/crop-and-upload-image-using-jquery-and-aspnet.html)  
 * []()  
 
-
+Теория:
+* [Изменение размера и обрезка изображений с помощью холста](http://tympanus.net/codrops/2014/10/30/resizing-cropping-images-canvas/)  
 
 
 <br /><br />
