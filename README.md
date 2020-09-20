@@ -3,11 +3,10 @@
 Загрузка изображений на сервер для проекта Razor Pages. 
 
 ## [Простая форма загрузки изображений →](Doc/upload.md) 
-Без сторонних javascript библиотек - просто загрузка на сервер с выполнением необходимых проверок.
+Без сторонних javascript библиотек - просто загрузка на сервер с выполнением первичных проверок на клиенте.
 
 ## Для начала:
-* [Лучшие плагины Javascript и jQuery для обрезки изображений](https://ourcodeworld.com/articles/read/281/top-7-best-image-cropping-javascript-and-jquery-plugins)  
-*  
+* [Лучшие плагины Javascript и jQuery для обрезки изображений](https://ourcodeworld.com/articles/read/281/top-7-best-image-cropping-javascript-and-jquery-plugins)   
 
 <br /><br />
 <p align="center">
