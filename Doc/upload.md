@@ -130,3 +130,11 @@
 * [HTML код + javascript](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Upload/Index.cshtml)  
 * [C# код](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Upload/Index.cshtml.cs)    
  
+
+<br /><br />
+<p align="center">
+  Практические консультации вы можете получить на наших <a  href="http://creativcode.ru/learn" target="_blank" >веб курсах в Сочи, Адлер</a>:<br /><br />
+   <a  href="http://creativcode.ru/learn/webnet" target="_blank" title="Курс веб программирования .Net C#" >
+  <img src="http://creativcode.ru/img/learn/net-learn.jpg" width="400" alt="">
+   </a>
+</p>
