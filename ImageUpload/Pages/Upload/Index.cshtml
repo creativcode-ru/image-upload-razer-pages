@@ -3,6 +3,8 @@
 @{
 }
 
+
+
 <div class="m-3">
     <form method="post" enctype="multipart/form-data" class="border-bottom pb-3">
         <input id="file_upload" multiple name="image" type="file" class="form-control-file" accept="image/*" />
@@ -24,6 +26,7 @@
 *@
 
 @section scripts{
+    <script src="~/lib/jquery-cropper/dist/jquery-cropper.min.js"></script>
     <script>
         //<![CDATA[
 
@@ -61,6 +64,6 @@
             });
         });
 
-     //]]>
+         //]]>
     </script>
 }

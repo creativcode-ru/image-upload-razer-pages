@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery-cropper@1.0.1",
+      "destination": "wwwroot/lib/jquery-cropper/",
+      "files": [
+        "jquery-cropper.min.js",
+        "jquery-cropper.js"
+      ]
+    },
+    {
+      "library": "cropperjs@1.5.9",
+      "destination": "wwwroot/lib/cropperjs/"
+    }
+  ]
+}
