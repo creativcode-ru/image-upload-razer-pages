@@ -5,6 +5,9 @@
 ## [Простая форма загрузки изображений →](Doc/upload.md) 
 Без сторонних javascript библиотек - просто загрузка на сервер с выполнением первичных проверок на клиенте.
 
+## Библиотеки
+Для загрузки javascript библиотек лучше использовать LibMan: [Использование LibMan с ASP.NET Core в Visual Studio](https://docs.microsoft.com/ru-ru/aspnet/core/client-side/libman/libman-vs?view=aspnetcore-3.1) - позволяет обойтись без Node.js и пути к библиотекам очевидны.
+
 ## Ресурсы:
 Плагины позволяют редактировать ранее загруженное на сервер изображение. Конечно, хочется немного отредактировать изображение *перед загрузкой*, чтобы не тащить огромные файлы, и обрезать лишнее.
 * [Лучшие плагины Javascript и jQuery для обрезки изображений](https://ourcodeworld.com/articles/read/281/top-7-best-image-cropping-javascript-and-jquery-plugins)  
