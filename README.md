@@ -5,6 +5,9 @@
 ## [Простая форма загрузки изображений →](Doc/upload.md) 
 Без сторонних javascript библиотек - просто загрузка на сервер с выполнением первичных проверок на клиенте.
 
+## Библиотеки
+Для загрузки javascript библиотек в Visual Studio 2019 лучше использовать LibMan: [Использование LibMan с ASP.NET Core в Visual Studio](https://docs.microsoft.com/ru-ru/aspnet/core/client-side/libman/libman-vs?view=aspnetcore-3.1) - позволяет обойтись без Node.js и пути к библиотекам очевидны.
+
 ## Ресурсы:
 Плагины позволяют редактировать ранее загруженное на сервер изображение. Конечно, хочется немного отредактировать изображение *перед загрузкой*, чтобы не тащить огромные файлы, и обрезать лишнее.
 * [Лучшие плагины Javascript и jQuery для обрезки изображений](https://ourcodeworld.com/articles/read/281/top-7-best-image-cropping-javascript-and-jquery-plugins)  
@@ -20,6 +23,10 @@
 ещё:
 * [fengyuanchen/cropperjs](https://github.com/fengyuanchen/cropperjs)  
 * [fengyuanchen/jquery-cropper](https://github.com/fengyuanchen/jquery-cropper)  
+
+## C#
+* [Загрузка и обрезка изображений с помощью jQuery, JCrop и ASP.NET](https://www.mikesdotnetting.com/article/95/upload-and-crop-images-with-jquery-jcrop-and-asp-net)  
+* [Crop and Upload Image with Thumbnail using jQuery and HTML5 in ASP.Net](https://www.aspsnippets.com/Articles/Crop-and-Upload-Image-with-Thumbnail-using-jQuery-and-HTML5-in-ASPNet.aspx)  
 
 Варианты применения:
 * [Upload ,Crop and save.](https://codepen.io/nakome/pen/vmKwQg)  
