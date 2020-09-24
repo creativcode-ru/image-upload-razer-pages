@@ -1,0 +1,80 @@
+﻿@page
+@model ImageUpload.Pages.Cropper.IndexModel
+@{
+}
+
+@section PageCss{
+    <link href="~/lib/cropper/cropperjs/cropper.css" rel="stylesheet">
+}
+
+<div class="m-3">
+    <!-- выбираем исходную картинку -->
+    <input id="img_select" type="file" class="form-control-file" accept="image/*" />
+    <button id="btn_crop">Обрезать</button>
+
+    <!-- отображаем исходную картинку с маркерами обрезки -->
+    <div id="img_bg" class="m-3"></div>
+
+    <!-- отображаем обрезанную картинку -->
+    <div class="m-3">
+        <img id="img_cropped" src="" alt="">
+    </div>
+
+    <!-- форма отправки данных на сервер -->
+    <form method="post" enctype="multipart/form-data" class="border-bottom pb-3">
+        <input type="hidden" name="imgCropped" id="imgCropped" />
+        <input id="btn_upload" type="submit" value="Загрузить" />
+    </form>
+</div>
+
+@section scripts{
+    <script src="~/lib/cropper/cropperjs/cropper.js"></script>
+
+    <script>
+        //<![CDATA[
+
+        let
+            upload = document.querySelector('#img_select'), //поле выбора исходной картинки
+            result = document.querySelector('#img_bg'), //контейер для отображения исходной картинки
+            save = document.querySelector('#btn_crop'), //кнопка обрезки
+            cropped = document.querySelector('#img_cropped'),//обрезанная картинка
+            data = document.querySelector('#imgCropped'),//двоичная кодировка обрезанной картинки
+            cropper = '';
+
+        //отоброзить фоновую картинку для обрезки после её выбора
+        upload.addEventListener('change', (e) => {
+            if (e.target.files.length) {
+                //чтение файла картинки
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    if (e.target.result) {
+                        //создать фоновую картинку 
+                        let img = document.createElement('img');
+                        img.id = 'image';
+                        img.src = e.target.result
+                        //очистить контейнер, если ранее уже выбирали картинку
+                        result.innerHTML = '';
+                        // append new image
+                        result.appendChild(img);
+                        
+                        //применить для созданной картинки cropper
+                        cropper = new Cropper(img);
+                    }
+                };
+                reader.readAsDataURL(e.target.files[0]);
+            }
+        });
+
+        //обрезать картинку
+        save.addEventListener('click', (e) => {
+            e.preventDefault();
+            //результат обрезки
+            let imgSrc = cropper.getCroppedCanvas({}).toDataURL();
+            cropped.src = imgSrc;
+            data.value = imgSrc; //помещаем картинку в скрытое поле формы
+            //это можно увидеть прям в броузере Хром, в режиме разработчика(F12)
+        });
+
+     //]]>
+    </script>
+}
