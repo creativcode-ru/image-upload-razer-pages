@@ -24,6 +24,10 @@
 * [fengyuanchen/cropperjs](https://github.com/fengyuanchen/cropperjs)  
 * [fengyuanchen/jquery-cropper](https://github.com/fengyuanchen/jquery-cropper)  
 
+## C#
+* [Загрузка и обрезка изображений с помощью jQuery, JCrop и ASP.NET](https://www.mikesdotnetting.com/article/95/upload-and-crop-images-with-jquery-jcrop-and-asp-net)  
+* [Crop and Upload Image with Thumbnail using jQuery and HTML5 in ASP.Net](https://www.aspsnippets.com/Articles/Crop-and-Upload-Image-with-Thumbnail-using-jQuery-and-HTML5-in-ASPNet.aspx)  
+
 Варианты применения:
 * [Upload ,Crop and save.](https://codepen.io/nakome/pen/vmKwQg)  
 * [croppie: How to crop image using croppie js and upload in asp.net mvc](https://stackoverflow.com/questions/38012606/how-to-crop-image-using-croppie-js-and-upload-in-asp-net-mvc)  
