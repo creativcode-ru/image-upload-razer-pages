@@ -1,6 +1,6 @@
 [← Загрузка изображений](/README.md)  
 
-# Библиотка Cropper.js
+# Библиотка Cropper.js -- обрезка картинки перед отправкий на сервер
 📘 [Сайт Cropper.js](https://fengyuanchen.github.io/cropperjs/)   
 📘 [Github Cropper.js](https://github.com/fengyuanchen/cropperjs)  
 ♻ [CDN ](https://cdnjs.com/libraries/cropperjs)  
