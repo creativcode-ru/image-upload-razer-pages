@@ -8,6 +8,8 @@
 ## Библиотеки
 Для загрузки javascript библиотек в Visual Studio 2019 лучше использовать LibMan: [Использование LibMan с ASP.NET Core в Visual Studio](https://docs.microsoft.com/ru-ru/aspnet/core/client-side/libman/libman-vs?view=aspnetcore-3.1) - позволяет обойтись без Node.js и пути к библиотекам очевидны.
 
+## [Библиотка Cropper.js →](Doc/cropper.md)  
+
 ## Ресурсы:
 Плагины позволяют редактировать ранее загруженное на сервер изображение. Конечно, хочется немного отредактировать изображение *перед загрузкой*, чтобы не тащить огромные файлы, и обрезать лишнее.
 * [Лучшие плагины Javascript и jQuery для обрезки изображений](https://ourcodeworld.com/articles/read/281/top-7-best-image-cropping-javascript-and-jquery-plugins)  
@@ -19,10 +21,6 @@
 * [Обрезка изображений перед загрузкой - jQuery FineCrop](https://www.jqueryscript.net/form/Crop-Images-Before-Uploading-jQuery-FineCrop.html) 
 * [Simple jQuery Client Side Image Cropping Plugin - Awesome Cropper](https://www.jqueryscript.net/other/Simple-jQuery-Client-Side-Image-Cropping-Plugin-Awesome-Cropper.html)   
 * [picEdit : jQuery front-end Image editor Plugin](https://github.com/andyvr/picEdit)  
-
-ещё:
-* [fengyuanchen/cropperjs](https://github.com/fengyuanchen/cropperjs)  
-* [fengyuanchen/jquery-cropper](https://github.com/fengyuanchen/jquery-cropper)  
 
 ## C#
 * [Загрузка и обрезка изображений с помощью jQuery, JCrop и ASP.NET](https://www.mikesdotnetting.com/article/95/upload-and-crop-images-with-jquery-jcrop-and-asp-net)  
