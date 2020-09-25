@@ -1,6 +1,6 @@
 [← Загрузка изображений](/README.md)  
 
-# Библиотка Cropper.js -- обрезка картинки перед отправкий на сервер
+# Библиотка Cropper.js -- обрезка картинки перед отправкой на сервер
 📘 [Сайт Cropper.js](https://fengyuanchen.github.io/cropperjs/)   
 📘 [Github Cropper.js](https://github.com/fengyuanchen/cropperjs)  
 ♻ [CDN ](https://cdnjs.com/libraries/cropperjs)  
@@ -15,7 +15,7 @@
     <link href="~/lib/cropper/cropperjs/cropper.css" rel="stylesheet">
 }
 ```
-При этом в разметке *Shared/_Layout.cshtml* есть соответсвующий вызов данной секции:
+При этом в разметке *[Shared/_Layout.cshtml](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Shared/_Layout.cshtml)* есть соответсвующий вызов данной секции:
 ```
 <head>
     <meta charset="utf-8" />
