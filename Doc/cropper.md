@@ -104,7 +104,7 @@
 
 Добавляем форму:
 ```
-<!-- форма отправки данных на сервер -->
+    <!-- форма отправки данных на сервер -->
     <form method="post" enctype="multipart/form-data" class="border-bottom pb-3">
         <input type="hidden" name="imgCropped" id="imgCropped" />
         <input id="btn_upload" type="submit" value="Загрузить" />
@@ -114,9 +114,45 @@
 
 Добавляем пару строк в скрипт:  
 Вместо строки `//data = здесь добавим поле для отправки данных на срвер` добавляем:  
-`data = document.querySelector('#imgCropped'),//двоичная кодировка обрезанной картинки`  
+```
+data = document.querySelector('#imgCropped'),//двоичная кодировка обрезанной картинки
+```  
 А вместо строки `//data -- здесь будет отправка данных на сервер` добавляем:  
 ```
-data.value = imgSrc; //помещаем картинку в скрытое поле формы 
+data.value = imgSrc; //помещаем ту же картинку в скрытое поле формы 
 ```
-Теперь, после нажатия кнопки *Обрезать*, кроме отображения результата обрезки, мы также заполняем скрытое поле формы двоичными данными для картинки. Это можно увидеть прям в броузере Хром, в режиме разработчика(F12), поле 
+Теперь, после нажатия кнопки *Обрезать*, кроме отображения результата обрезки, мы также заполняем скрытое поле формы двоичными данными для картинки. Это можно увидеть прям в броузере Хром, в режиме разработчика(F12).
+
+* **Обработка на сервере:** 
+```
+        public async Task OnPostAsync(string imgCropped)
+        {
+            byte[] bytes = Convert.FromBase64String(imgCropped.Split(',')[1]);
+
+            var path = Path.Combine(
+                        Directory.GetCurrentDirectory(), "wwwroot/uploads", //каталог для загрузки картинки
+                        "imgCropped.png"); //пока фиксированное название
+            var memory = new MemoryStream();
+            using (var stream = new FileStream(path, FileMode.Create))
+            {
+                await stream.WriteAsync(bytes, 0, bytes.Length);
+                stream.Flush();
+            }
+        }
+```
+Здесь используется постоянное название для картинки, в реальном проекте данные могут отправлятся в Хранилище (SQL или другое) с нужным названием.
+
+Далее мы рассмотрим более детальный пример, с использованием дополнительных опций.  
+
+## Файлы с кодом
+* [HTML код + javascript](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Cropper/Index.cshtml)  
+* [C# код](https://github.com/creativcode-ru/image-upload-razer-pages/blob/master/ImageUpload/Pages/Cropper/Index.cshtml.cs)    
+ 
+
+<br /><br />
+<p align="center">
+  Практические консультации вы можете получить на наших <a  href="http://creativcode.ru/learn" target="_blank" >веб курсах в Сочи, Адлер</a>:<br /><br />
+   <a  href="http://creativcode.ru/learn/webnet" target="_blank" title="Курс веб программирования .Net C#" >
+  <img src="http://creativcode.ru/img/learn/net-learn.jpg" width="400" alt="">
+   </a>
+</p>
