@@ -54,8 +54,9 @@
 
 <br /><br />
 <p align="center">
+  Посмотрите анонс на Ютубе:<br /><br />
    <a  href="https://youtu.be/RepNshueU7w" target="_blank" title="Фронтенд " >
-       <img src="https://img.youtube.com/vi/RepNshueU7w/0.jpg" width="480" height="360" alt="Фронтенд">
+       <img src="https://img.youtube.com/vi/RepNshueU7w/mqdefault.jpg" width="320" height="180" alt="Фронтенд">
    </a>
 </p>
 
