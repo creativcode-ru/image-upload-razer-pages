@@ -1,5 +1,5 @@
 # image-upload-razer-pages
-[<img align="right" width="96px" title="Веб студия CREATIVcode в Сочи" src="http://creativcode.ru/img/app/logo-page.png" target="_blank" />](http://creativcode.ru/)
+[<img align="right" width="96px" title="Веб студия CREATIVcode в Сочи" src="http://creativcode.ru/img/app/logo-page.png" target="_blank" />](Сайт CREATIVcode)
 Загрузка изображений на сервер для проекта Razor Pages. 
 
 ## [Простая форма загрузки изображений →](Doc/upload.md) 
