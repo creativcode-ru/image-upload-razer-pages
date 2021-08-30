@@ -55,7 +55,7 @@
 <br /><br />
 <p align="center">
    <a  href="https://youtu.be/RepNshueU7w" target="_blank" title="Фронтенд " >
-       <img src="https://img.youtube.com/vi/RepNshueU7w/0.jpg" width="480" height=360 alt="Фронтенд">
+       <img src="https://img.youtube.com/vi/RepNshueU7w/0.jpg" width="480" height="360" alt="Фронтенд">
    </a>
 </p>
 
