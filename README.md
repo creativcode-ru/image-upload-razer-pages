@@ -47,7 +47,15 @@
 <br /><br />
 <p align="center">
   Посетите нашу Веб студию CREATIVcode в Сочи, Адлер</a>, <a  href="http://creativcode.ru/contact" target="_blank" >свяжитесь с нами</a>.<br /><br />
-   <a  href="http://creativcode.ru" target="_blank" title="Вебстудия, " >
+   <a  href="http://creativcode.ru" target="_blank" title="Вебстудия CREATIVcode " >
   <img src="http://creativcode.ru/img/app/og/webnet-1200x628.jpg" width="400" alt="Веб разработка .Net">
    </a>
 </p>
+
+<br /><br />
+<p align="center">
+   <a  href="https://youtu.be/RepNshueU7w" target="_blank" title="Фронтенд " >
+       <img src="https://img.youtube.com/vi/RepNshueU7w/0.jpg" width="480" height=360 alt="Фронтенд">
+   </a>
+</p>
+
